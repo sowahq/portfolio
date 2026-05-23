@@ -15,7 +15,7 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "Fondation CGénial",
-    title: "Développeur Frontend & Consultant Tech",
+    title: "Développement Frontend & Consulting Tech",
     date: {
       start: Date.parse("2026-04-01"),
       end: null,
@@ -29,6 +29,22 @@ export const experiences: Experience[] = [
     ],
     skills: ["Svelte", "MariaDB", "Docker", "PHP", "Symfony"],
     href: "https://cgenial-connect.fr/",
+  },
+  {
+    company: "Startup logistique",
+    title: "Développement Full-Stack & Mobile (A à Z)",
+    date: {
+      start: Date.parse("2025-09-01"),
+      end: Date.parse("2026-02-01"),
+    },
+    description: [
+      "Conception et développement de A à Z de l'ensemble de la stack",
+      "Landing page et panel d'administration en SvelteKit",
+      "Back-end en Go",
+      "Applications mobiles en Flutter (iOS & Android)",
+      "DevOps : conteneurisation Docker, CI/CD et déploiement",
+    ],
+    skills: ["Svelte", "SvelteKit", "Go", "Flutter", "Docker", "CI/CD", "DevOps"],
   },
   {
     company: "Ongamecloud",
@@ -64,6 +80,36 @@ export const experiences: Experience[] = [
     ],
     skills: ["Go", "Rust", "Svelte", "Redis", "PostgreSQL", "Docker", "Mikrotik"],
     href: "https://github.com/anhostfr"
+  },
+  {
+    company: "Hangar",
+    title: "Object storage léger en Go",
+    date: {
+      start: Date.parse("2025-08-19"),
+      end: null,
+    },
+    description: [
+      "Conception d'un service de stockage objet en Go",
+      "API compatible S3, déploiement auto-hébergeable",
+      "Focus sur la simplicité et la faible empreinte",
+    ],
+    href: "https://github.com/sowahq/hangar",
+    skills: ["Go", "S3", "Object Storage"],
+  },
+  {
+    company: "LitePay",
+    title: "Processeur de paiement crypto self-hosted",
+    date: {
+      start: Date.parse("2024-12-17"),
+      end: null,
+    },
+    description: [
+      "Processeur de paiement crypto self-hosted (Bitcoin, Litecoin, Solana)",
+      "Sans intermédiaire, sans frais, sans garde tierce",
+      "Architecture orientée souveraineté et auto-hébergement",
+    ],
+    href: "https://github.com/sowahq/litepay",
+    skills: ["Go", "Bitcoin", "Litecoin", "Solana", "Self-hosted"],
   },
   {
     company: "Goscord",

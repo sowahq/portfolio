@@ -29,18 +29,16 @@
         Salut,<br />moi c'est Mathis!
       </h1>
       <p class="text-gray-600 mb-6 leading-relaxed">
-        Je suis un <span class="text-yellow-500">développeur</span> passionné
-        par la programmation et le web. Développeur et reverse-engineer depuis
-        2016, je travaille principalement avec
-        <span class="text-yellow-500">C++ et Golang</span>. Je suis aussi
-        intéressé par la <span class="text-yellow-500">rétro-ingénierie</span>.
-        J'aime bien aussi trouver des bugs dans les
-        <span class="text-yellow-500">jeux vidéos</span>
-        et/ou des <span class="text-yellow-500">applications</span> pour faire
-        des mods ou les améliorer. De plus, je participe à des projets open
-        source, comme par exemple
+        Je code depuis 2016, surtout en
+        <span class="text-yellow-500">Golang et l'écosystème JavaScript</span>. Ce qui me branche
+        vraiment, c'est la
+        <span class="text-yellow-500">rétro-ingénierie</span> : démonter des
+        <span class="text-yellow-500">jeux vidéos</span> ou des
+        <span class="text-yellow-500">applications</span> pour comprendre
+        comment ça tourne, dénicher des bugs, faire des mods. À côté, je
+        bricole de l'open source — entre autres
         <a class="text-yellow-500 underline underline-offset-2" href="https://goscord.dev">Goscord</a>, une
-        API Discord développée en Golang.
+        API Discord en Go.
       </p>
       <Button class="w-fit" href="https://blog.mth.lc"><Download
         color="white"

@@ -3,19 +3,19 @@
 </script>
 
 <svelte:head>
-  <title>Mathis LUTIC - Développeur full-stack</title>
+  <title>Mathis LUTIC - Développement full-stack</title>
   <meta
     name="description"
-    content="Bienvenue sur mon porfolio, je suis un développeur full-stack depuis 2016. Je travaille principalement avec Svelte et Go."
+    content="Bienvenue sur mon portfolio. Je fais du développement full-stack depuis 2016, principalement avec Svelte et Go."
   />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://szeroki.fr" />
-  <meta property="og:title" content="Mathis LUTIC - Développeur full-stack" />
+  <meta property="og:title" content="Mathis LUTIC - Développement full-stack" />
   <meta
     property="og:description"
-    content="Bienvenue sur mon porfolio, je suis un développeur full-stack depuis 2016. Je travaille principalement avec Svelte et Go."
+    content="Bienvenue sur mon portfolio. Je fais du développement full-stack depuis 2016, principalement avec Svelte et Go."
   />
   <meta property="og:image" content="https://szeroki.fr/images/og-image.png" />
 
@@ -24,11 +24,11 @@
   <meta property="twitter:url" content="https://szeroki.fr" />
   <meta
     property="twitter:title"
-    content="Mathis LUTIC - Développeur full-stack"
+    content="Mathis LUTIC - Développement full-stack"
   />
   <meta
     property="twitter:description"
-    content="Bienvenue sur mon porfolio, je suis un développeur full-stack depuis 2016. Je travaille principalement avec Svelte et Go."
+    content="Bienvenue sur mon portfolio. Je fais du développement full-stack depuis 2016, principalement avec Svelte et Go."
   />
   <meta
     property="twitter:image"
