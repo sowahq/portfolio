@@ -33,6 +33,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@humanspeak/svelte-motion": "^0.5.1",
     "@sveltejs/enhanced-img": "^0.10.4"
   }
 }
