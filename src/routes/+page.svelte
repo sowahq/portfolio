@@ -18,7 +18,7 @@
     property="og:description"
     content="Bienvenue sur mon portfolio. Je fais du développement full-stack depuis 2016, principalement avec Svelte et Go."
   />
-  <meta property="og:image" content="https://szeroki.fr/images/og-image.png" />
+  <meta property="og:image" content="https://szeroki.fr/images/og-image.jpg" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -33,7 +33,7 @@
   />
   <meta
     property="twitter:image"
-    content="https://szeroki.fr/images/og-image.png"
+    content="https://szeroki.fr/images/og-image.jpg"
   />
 </svelte:head>
 
