@@ -1,7 +1,10 @@
+import type { Component } from "svelte";
+import type { IconProps } from "#lib/components/icons/index.js";
+
 export interface Skill {
   name: string;
   href?: string | null;
-  icon: any; // TODO: add icon
+  icon: Component<IconProps> | null;
 }
 
 export const skills: Skill[] = [

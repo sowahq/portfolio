@@ -1,4 +1,5 @@
-import { Discord, Email, LinkedIn } from "#lib/components/icons/index.js";
+import type { Component } from "svelte";
+import { Discord, Email, LinkedIn, type IconProps } from "#lib/components/icons/index.js";
 
 interface EducationItem {
   period: string;
@@ -9,7 +10,7 @@ interface EducationItem {
 interface ContactItem {
   name: string;
   link: string;
-  icon: any; // TODO: add icon
+  icon: Component<IconProps> | null;
 }
 
 export interface Profile {

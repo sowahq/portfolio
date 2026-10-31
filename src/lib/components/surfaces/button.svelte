@@ -16,7 +16,7 @@
 </script>
 
 {#if href}
-  <a {href} target="_blank" rel="noopener noreferrer" class={classes}>
+  <a {href} target="_blank" rel="external noopener noreferrer" class={classes}>
     {@render children()}
   </a>
 {:else if onclick}
