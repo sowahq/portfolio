@@ -1,5 +1,5 @@
 /// <reference types="vitest/config" />
-import adapter from "@sveltejs/adapter-auto";
+import adapter from "@sveltejs/adapter-vercel";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 import { enhancedImages } from "@sveltejs/enhanced-img";
 import { sveltekit } from "@sveltejs/kit/vite";
