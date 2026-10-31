@@ -140,6 +140,22 @@ export const experiences: Experience[] = [
     skills: ["Go", "WebSocket", "UDP", "Docker"],
   },
   {
+    company: "Virtual Royaume",
+    title: "Développeur & coordinateur open source",
+    date: {
+      start: Date.parse("2021-01-01"),
+      end: Date.parse("2023-10-01"),
+    },
+    description: [
+      "Équipe de développeurs bénévoles coordonnée pour maintenir les projets open source de la communauté.",
+      "API GraphQL conçue avec NestJS et MongoDB pour servir l'ensemble des projets de la communauté.",
+      "Stabilité des outils assurée par la revue de code des contributions et des tests unitaires et E2E.",
+      "Site de la communauté en Next.js et bot Discord de gestion en Discord.js.",
+    ],
+    href: "https://github.com/Royaume-Group",
+    skills: ["TypeScript", "NestJS", "GraphQL", "MongoDB", "Next.js", "Discord.js"],
+  },
+  {
     company: "MoonlyClient",
     title: "Ingénieur logiciel · rétro-ingénierie",
     date: {
