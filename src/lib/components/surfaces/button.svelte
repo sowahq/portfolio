@@ -11,7 +11,7 @@
   const { children, href, onclick, class: className }: ButtonProps = $props();
 
   const classes = $derived(
-    `bg-purple-500 text-white shadow-purple-500 px-4 py-2 shadow-pixel-art text-center flex items-center gap-2 hover:scale-90 transition-transform duration-150 ${className ?? ""}`,
+    `bg-purple-500 text-white shadow-purple-500 px-4 py-2 shadow-pixel-art text-center flex items-center gap-2 transition-transform duration-150 ease-out hover:-translate-y-0.5 active:translate-y-0.5 ${className ?? ""}`,
   );
 </script>
 
