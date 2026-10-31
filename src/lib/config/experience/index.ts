@@ -79,6 +79,22 @@ export const experiences: Experience[] = [
     href: "https://github.com/anhostfr",
   },
   {
+    company: "compress.lol",
+    title: "Créateur · compression vidéo dans le navigateur",
+    date: {
+      start: Date.parse("2025-09-10"),
+      end: null,
+    },
+    description: [
+      "Outil open source adopté par la communauté : plus de 300 étoiles sur GitHub.",
+      "Aucun coût serveur et aucune donnée envoyée : la compression se fait entièrement dans le navigateur grâce à FFmpeg.wasm.",
+      "Interface SvelteKit qui traite des fichiers volumineux directement côté client.",
+      "Pensé d'abord pour faire passer des vidéos sous les limites d'envoi de Discord.",
+    ],
+    href: "https://compress.lol",
+    skills: ["SvelteKit", "FFmpeg.wasm", "WebAssembly"],
+  },
+  {
     company: "Hangar",
     title: "Créateur · stockage objet compatible S3",
     date: {
