@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { DebugMode, ParticleLayer } from "#lib/components/fx/index.js";
   import { AboutSection, HelloSection } from "#lib/components/layout/index.js";
 </script>
 
@@ -35,6 +36,9 @@
     content="https://szeroki.fr/images/og-image.png"
   />
 </svelte:head>
+
+<ParticleLayer trail={false} />
+<DebugMode />
 
 <main class="min-h-screen scroll-smooth">
   <HelloSection />
