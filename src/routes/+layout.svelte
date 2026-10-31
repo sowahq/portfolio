@@ -22,7 +22,7 @@
 </svelte:head>
 
 <main
-  class="min-h-screen scroll-smooth relative overflow-hidden bg-gradient-to-br from-purple-200 to-white font-minecraft"
+  class="min-h-screen relative overflow-x-clip bg-gradient-to-br from-purple-200 to-white font-minecraft"
 >
   {@render children()}
 </main>

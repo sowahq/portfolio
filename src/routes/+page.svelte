@@ -40,7 +40,7 @@
 <ParticleLayer trail={false} />
 <DebugMode />
 
-<main class="min-h-screen scroll-smooth">
+<main class="min-h-screen">
   <HelloSection />
   <AboutSection />
 </main>
