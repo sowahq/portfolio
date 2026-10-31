@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Portrait from "$lib/components/images/portrait.png?enhanced";
-    import Download from "$lib/components/icons/download.svelte";
-    import Button from "$lib/components/surfaces/button.svelte";
+  import Portrait from "#lib/components/images/portrait.png?enhanced";
+    import Download from "#lib/components/icons/download.svelte";
+    import Button from "#lib/components/surfaces/button.svelte";
     import { motion } from "@humanspeak/svelte-motion";
 
     let hovered = $state(false);

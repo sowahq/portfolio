@@ -1,29 +1,29 @@
 <script lang="ts">
-  import { Discord, Email, LinkedIn } from "$lib/components/icons";
-  import AboutText from "$lib/components/surfaces/about-text.svelte";
-  import { experiences } from "$lib/config/experience";
-  import { skills } from "$lib/config/skill";
+  import { Discord, Email, LinkedIn } from "#lib/components/icons/index.js";
+  import AboutText from "#lib/components/surfaces/about-text.svelte";
+  import { experiences } from "#lib/config/experience/index.js";
+  import { skills } from "#lib/config/skill/index.js";
   import Link from "../icons/link.svelte";
   import { Button } from "../surfaces";
   import TimelineTitle from "../surfaces/timeline-title.svelte";
-  import { profile } from "$lib/config/profile";
-  import { motion } from "@humanspeak/svelte-motion";
+  import { profile } from "#lib/config/profile/index.js";
+  import { motion, type Variants } from "@humanspeak/svelte-motion";
 
-  const fadeUp = {
+  const fadeUp: Variants = {
     hidden: { opacity: 0, y: 20 },
-    visible: (i: number) => ({
+    visible: (i) => ({
       opacity: 1,
       y: 0,
-      transition: { delay: i * 0.06, duration: 0.4 },
+      transition: { delay: Number(i) * 0.06, duration: 0.4 },
     }),
   };
 
-  const slideIn = {
+  const slideIn: Variants = {
     hidden: { opacity: 0, x: -20 },
-    visible: (i: number) => ({
+    visible: (i) => ({
       opacity: 1,
       x: 0,
-      transition: { delay: i * 0.08, duration: 0.45 },
+      transition: { delay: Number(i) * 0.08, duration: 0.45 },
     }),
   };
 </script>

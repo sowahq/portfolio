@@ -1,4 +1,4 @@
-import { Discord, Email, LinkedIn } from "$lib/components/icons";
+import { Discord, Email, LinkedIn } from "#lib/components/icons/index.js";
 
 interface EducationItem {
   period: string;

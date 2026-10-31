@@ -1,8 +1,8 @@
 <script lang="ts">
-  import "$lib/app.css";
+  import "#lib/app.css";
 
   import { onMount } from "svelte";
-  import { wappalyzer } from "$lib/utils";
+  import { wappalyzer } from "#lib/utils/index.js";
 
   const { children } = $props();
 

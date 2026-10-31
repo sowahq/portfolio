@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { AboutSection, HelloSection } from "$lib/components/layout";
+  import { AboutSection, HelloSection } from "#lib/components/layout/index.js";
 </script>
 
 <svelte:head>
