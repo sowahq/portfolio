@@ -13,12 +13,14 @@ interface ContactItem {
 }
 
 export interface Profile {
+  bio: string;
   education: EducationItem[];
   contacts: ContactItem[];
   interests: string[];
 }
 
 export const profile: Profile = {
+  bio: "Je code depuis 2016, surtout en Golang et l'écosystème JavaScript. Ce qui me branche vraiment, c'est la rétro-ingénierie : démonter des jeux vidéos ou des applications pour comprendre comment ça tourne, dénicher des bugs, faire des mods. À côté, je bricole de l'open source, entre autres Goscord, une API Discord en Go.",
   education: [
     {
       period: "2020 - 2023",

@@ -8,6 +8,7 @@ export default {
       },
       boxShadow: {
         "pixel-art": "-3px 0 0 0, 3px 0 0 0, 0 -3px 0 0, 0 3px 0 0",
+        "pixel-sm": "3px 3px 0 0",
       },
     },
   },

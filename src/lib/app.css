@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --fx-accent: theme("colors.purple.600");
+    --fx-accent-soft: theme("colors.purple.300");
+    --fx-highlight: theme("colors.yellow.300");
+    --fx-highlight-strong: theme("colors.yellow.400");
+    --fx-paper: theme("colors.white");
+    --fx-ink: theme("colors.purple.950");
+  }
+
+  [data-debug] body * {
+    outline: 1px dashed theme("colors.purple.400");
+    outline-offset: -1px;
+  }
+}
+
 @font-face {
   font-family: "Minecraft";
   src:
