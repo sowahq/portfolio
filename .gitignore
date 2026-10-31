@@ -11,3 +11,6 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+
+# Local CV drafts
+/CV_*.pdf
