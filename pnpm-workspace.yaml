@@ -1,0 +1,5 @@
+packages:
+  - apps/*
+  - packages/*
+minimumReleaseAgeExclude:
+  - "@sveltejs/vite-plugin-svelte@7.3.2"

@@ -1,0 +1,49 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mth/ui": "workspace:*",
+    "github-slugger": "^2.0.0",
+    "hast-util-to-string": "^3.0.1",
+    "image-size": "^2.1.0",
+    "remark-gfm": "^4.0.1",
+    "remark-mdc": "^3.11.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "shiki": "^4.6.0",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.2.0",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@sveltejs/adapter-vercel": "^7.0.5",
+    "@sveltejs/kit": "^3.4.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.2",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/hast": "^3.0.5",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^26.6.6",
+    "satori": "^0.63.2",
+    "sharp": "^0.35.5",
+    "svelte": "^5.59.1",
+    "svelte-check": "^4.7.8",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^6.0.0",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  }
+}

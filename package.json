@@ -1,46 +1,33 @@
 {
-  "name": "portfolio",
-  "version": "0.0.1",
-  "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@sveltejs/adapter-vercel": "^7.0.2",
-    "@sveltejs/kit": "^3.1.1",
-    "@sveltejs/vite-plugin-svelte": "^7.3.1",
-    "@types/eslint": "^9.6.1",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.39.4",
-    "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-svelte": "^3.23.1",
-    "globals": "^15.15.0",
-    "jsdom": "^30.1.3",
-    "postcss": "^8.5.15",
-    "prettier": "^3.8.3",
-    "prettier-plugin-svelte": "^4.1.1",
-    "svelte": "^5.57.3",
-    "svelte-check": "^4.7.7",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^6.0.0",
-    "typescript-eslint": "^8.72.1",
-    "vite": "^8.3.5",
-    "vitest": "^5.0.5"
-  },
+  "name": "mth",
   "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.6.0",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "dev": "pnpm --parallel --filter portfolio --filter blog dev",
+    "dev:portfolio": "pnpm --filter portfolio dev",
+    "dev:blog": "pnpm --filter blog dev",
+    "build": "pnpm -r build",
+    "build:portfolio": "pnpm --filter portfolio build",
+    "build:blog": "pnpm --filter blog build",
+    "preview": "pnpm --parallel --filter portfolio --filter blog preview",
+    "preview:portfolio": "pnpm --filter portfolio preview",
+    "preview:blog": "pnpm --filter blog preview",
+    "check": "pnpm -r check",
+    "test": "pnpm -r test",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
-  "type": "module",
-  "dependencies": {
-    "@humanspeak/svelte-motion": "^2.5.1",
-    "@sveltejs/enhanced-img": "^1.0.0"
-  },
-  "imports": {
-    "#lib": "./src/lib/index.js",
-    "#lib/*": "./src/lib/*"
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^3.24.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.8.3",
+    "prettier-plugin-svelte": "^4.2.0",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.72.1"
   }
 }

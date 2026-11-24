@@ -1,16 +1,44 @@
-.DS_Store
+# Dependencies
 node_modules
-/build
-/.svelte-kit
-/package
-.env
-.env.*
-!.env.example
+
+# Build output
+build
+.svelte-kit
 .vercel
 .output
+package
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# Environment
+.env
+.env.*
+!.env.example
 
-# Local CV drafts
-/CV_*.pdf
+# OS and editors
+.DS_Store
+.idea
+.vscode
+*.swp
+
+# AI assistants and agent tooling
+.claude
+.agents
+.cursor
+.codex
+.gemini
+.impeccable
+.taste-skill
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+skills-lock.json
+
+# Design working files
+redesign
+PRODUCT.md
+DESIGN.md
+shots
+
+# Personal documents
+/CV*.pdf
