@@ -1,0 +1,5 @@
+pnpm-lock.yaml
+**/.svelte-kit
+**/build
+**/.vercel
+apps/blog/content
