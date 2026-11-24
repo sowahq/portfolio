@@ -2,7 +2,6 @@ export { default as BoardFrame } from "./components/BoardFrame.svelte";
 export { default as ClickSparks } from "./components/ClickSparks.svelte";
 export { default as EarlyPaint } from "./components/EarlyPaint.svelte";
 export { default as FontPreload } from "./components/FontPreload.svelte";
-export { default as DebugMode } from "./components/DebugMode.svelte";
 export { default as DepartureBoard } from "./components/DepartureBoard.svelte";
 export { default as DepotScene } from "./components/DepotScene.svelte";
 export type { Departure } from "./types.js";

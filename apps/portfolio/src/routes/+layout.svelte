@@ -2,7 +2,7 @@
   import "../app.css";
 
   import { onMount } from "svelte";
-  import { ClickSparks, DebugMode, FontPreload } from "@mth/ui";
+  import { ClickSparks, FontPreload } from "@mth/ui";
   import wappalyzer from "#lib/utils/wappalyzer.js";
 
   const { children } = $props();
@@ -14,6 +14,5 @@
 
 <FontPreload />
 <ClickSparks />
-<DebugMode />
 
 {@render children()}
