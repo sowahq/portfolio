@@ -8,6 +8,7 @@ import {
   paintSky,
   paintSkyline,
   painter,
+  type Painter,
   type SceneBox,
   type SceneCanvas,
 } from "./pixels.js";
@@ -56,10 +57,15 @@ export interface CityScene {
   windowColors: { on: string; off: string };
 }
 
+export interface CityOptions {
+  /** Painted after the skyline and before the belfry and the houses, so it stands behind the rooftops. */
+  creature?: (paint: Painter, ground: number) => void;
+}
+
 /**
  * Paints the Lille rooftops, the belfry and the VAL viaduct on a canvas sized to its CSS box.
  */
-export function paintCity(canvas: SceneCanvas, seed = 11): CityScene {
+export function paintCity(canvas: SceneCanvas, seed = 11, options: CityOptions = {}): CityScene {
   const palette = DAY;
   const random = seeded(seed);
   const width = Math.max(80, Math.ceil(canvas.clientWidth / SCENE_PIXEL));
@@ -160,6 +166,7 @@ export function paintCity(canvas: SceneCanvas, seed = 11): CityScene {
     rows.push([x, w, h, palette.houses[index % palette.houses.length]]);
     x += w;
   }
+  options.creature?.(paint, ground);
   belfry(towerX);
   for (const [x, w, h, color] of rows) if (Math.abs(x + w / 2 - towerX) > 12) house(x, w, h, color);
 
