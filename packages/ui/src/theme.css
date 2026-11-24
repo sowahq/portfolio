@@ -162,11 +162,6 @@
     outline: 3px solid var(--color-violet);
     outline-offset: 3px;
   }
-
-  [data-debug] body * {
-    outline: 1px dashed var(--color-lavender);
-    outline-offset: -1px;
-  }
 }
 
 @utility pixel-corners-3 {

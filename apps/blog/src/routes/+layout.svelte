@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css";
 
-  import { ClickSparks, DebugMode, FontPreload } from "@mth/ui";
+  import { ClickSparks, FontPreload } from "@mth/ui";
   import SiteFooter from "#lib/components/SiteFooter.svelte";
   import { SITE, absoluteUrl } from "#lib/site.js";
 
@@ -14,7 +14,6 @@
 
 <FontPreload />
 <ClickSparks />
-<DebugMode />
 
 {@render children()}
 
