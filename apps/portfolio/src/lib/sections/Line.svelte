@@ -7,14 +7,14 @@
   const STOP_TILTS = [-1, 1.2, -0.8, 0.6];
 
   const mainLine = [
-    "relative grid gap-y-7 pt-2 pb-6 lg:grid-cols-2 lg:gap-x-24",
+    "relative grid grid-cols-[minmax(0,1fr)] gap-y-7 pt-2 pb-6 lg:grid-cols-2 lg:gap-x-24",
     "max-lg:pl-11",
     "before:absolute before:top-0 before:bottom-0 before:w-2.5 before:bg-violet",
-    "before:left-3 lg:before:left-1/2 lg:before:-ml-1.25",
+    "before:left-1.75 lg:before:left-1/2 lg:before:-ml-1.25",
   ];
 
   const branchLine = [
-    "relative grid list-none gap-4.5 pt-[34px] lg:grid-cols-5",
+    "relative grid list-none grid-cols-[minmax(0,1fr)] gap-4.5 pt-[34px] lg:grid-cols-5",
     "max-lg:gap-4 max-lg:pt-0 max-lg:pl-11",
     "before:absolute before:bg-coral",
     "lg:before:top-2.25 lg:before:right-0 lg:before:left-0 lg:before:h-2.5",

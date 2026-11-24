@@ -20,7 +20,7 @@
 <li class="group relative">
   <span
     class={[
-      "metro-stop absolute -top-[34px] left-4.5 size-6 max-lg:top-4 max-lg:-left-[49px]",
+      "metro-stop absolute -top-[34px] left-4.5 size-6 max-lg:top-4 max-lg:-left-[44px]",
       stop.open ? "bg-highlight" : "",
     ]}
     aria-hidden="true"
